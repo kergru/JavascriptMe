@@ -1,0 +1,23 @@
+{
+  "name": "JavascriptMe",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "lite-server": "^2.6.1",
+    "ts-loader": "^9.4.3",
+    "typescript": "^5.0.4",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.195",
+    "class-validator": "^0.14.0",
+    "lodash": "^4.17.21"
+  }
+}
