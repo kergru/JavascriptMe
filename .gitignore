@@ -1,4 +1,4 @@
 /.idea/
-/JavascriptMe.iml/
-/node_modules/
-/dist/
+JavascriptMe.iml
+node_modules
+dist
